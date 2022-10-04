@@ -22,7 +22,7 @@ soc.listen(2)
 print(f"[{HOST_NAME}]: Waiting for incomming connections.......")
 
 
-while True():
+while True:
     client_socket, client_addr = soc.accept()
     print(f"[{client_addr}]: CONNECTED TO SERVER")
     if client_socket:
